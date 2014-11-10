@@ -1,4 +1,4 @@
 flexbox
 =======
 
-try and practice css3 flexbox
+try and see css3 flexbox
