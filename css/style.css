@@ -18,6 +18,10 @@ html,body{
     padding-left: 0;
     list-style: none;
     margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: flex-end;
 }
@@ -80,6 +84,9 @@ html,body{
 
 .container {
 
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
@@ -119,10 +126,7 @@ html,body{
 }
 
 @media all and (min-width: 768px) {
-    .bodyCopy{
-        flex: 3;
-        order: 1;
-    }
+    .bodyCopy{ flex: 3; order: 1;}
     .aside { order: 2; }
     .footer  { order: 3; }
 }
